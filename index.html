@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous">
+    </script>
+    <script src="dados.js"></script>
+</head>
+<body>
+    <div class="container">
+            <h1>Busca de estagiários</h1>
+
+
+        <form id="filterForm">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="date" id="dataInicio">
+            <input type="date" id="dataFim">
+            <button type="button" id="filtrar">Filtrar</button>
+            <button type="button" id="limpar">Limpar</button>
+        </form>
+
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Data Início</th>
+                <th>Data Fim</th>
+                <th>Cargo</th>
+                <th>Responsável</th>
+                <th>Efetivo</th>
+            </tr>
+            </thead>
+            <tbody id="resultado"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

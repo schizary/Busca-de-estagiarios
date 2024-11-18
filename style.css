@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    align-self: center;
+    border-radius: 16px;
+    width: 700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(133, 155, 173);
+    border: 10px solid black;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
